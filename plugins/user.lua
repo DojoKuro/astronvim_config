@@ -30,4 +30,10 @@ return {
       { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
     },
   },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    flavour = "frappe", -- latte, frappe, macchiato, mocha
+    priority = 1000,
+  },
 }
