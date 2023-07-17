@@ -19,7 +19,12 @@ return {
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
-    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- Tmux Navigator
+    ["<C-h>"] = { "<cmd>TmuxNavigateLeft<cr>"},
+    ["<C-j>"] = { "<cmd>TmuxNavigateDown<cr>"},
+    ["<C-k>"] = { "<cmd>TmuxNavigateUp<cr>"},
+    ["<C-l>"] = { "<cmd>TmuxNavigateRight<cr>"},
   },
   t = {
     -- setting a mapping to false will disable it
