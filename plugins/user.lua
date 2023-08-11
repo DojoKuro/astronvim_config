@@ -9,9 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
- "mfussenegger/nvim-dap-python",
- "nvim-neotest/neotest",
- "nvim-neotest/neotest-python",
+ -- "simrat39/rust-tools.nvim",
+ -- "nvim-lua/plenary.nvim",
+ -- "mfussenegger/nvim-dap-python",
+ -- "nvim-neotest/neotest",
+ -- "nvim-neotest/neotest-python",
   {
     "christoomey/vim-tmux-navigator",
   lazy = false,
@@ -33,7 +35,8 @@ return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
-    flavour = "frappe", -- latte, frappe, macchiato, mocha
+    flavour = "mocha", -- latte, frappe, macchiato, mocha
     priority = 1000,
   },
+
 }

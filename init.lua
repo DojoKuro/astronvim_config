@@ -16,7 +16,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "catppuccin-frappe",
+  colorscheme = "catppuccin-mocha",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -48,7 +48,8 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      -- "pyright"
+      "pyright",
+      "rust_analyzer",
     },
   },
 
@@ -62,6 +63,7 @@ return {
       },
     },
   },
+
 
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
