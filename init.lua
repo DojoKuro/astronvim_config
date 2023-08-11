@@ -24,4 +24,18 @@ return {
     underline = true,
   },
 
+
+  dap.configurations.rust = {
+    {
+      type = 'codelldb';
+      request = 'launch';
+      name = "Launch file";
+      program = "${file}";
+      pythonPath = function()
+        return '/usr/bin/python'
+      end;
+    },
+  }
+
+
 }

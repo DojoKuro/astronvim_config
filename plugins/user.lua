@@ -14,6 +14,7 @@ return {
  -- "mfussenegger/nvim-dap-python",
  -- "nvim-neotest/neotest",
  -- "nvim-neotest/neotest-python",
+ "catppuccin/nvim",
   {
     "christoomey/vim-tmux-navigator",
   lazy = false,
@@ -31,12 +32,6 @@ return {
       { "R", mode = { "o", "x" }, function() require("flash").treesitter_search() end, desc = "Treesitter Search" },
       { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
     },
-  },
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    flavour = "mocha", -- latte, frappe, macchiato, mocha
-    priority = 1000,
   },
 
 }
