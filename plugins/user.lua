@@ -9,11 +9,6 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
- -- "simrat39/rust-tools.nvim",
- -- "nvim-lua/plenary.nvim",
- -- "mfussenegger/nvim-dap-python",
- -- "nvim-neotest/neotest",
- -- "nvim-neotest/neotest-python",
  "catppuccin/nvim",
   {
     "christoomey/vim-tmux-navigator",
