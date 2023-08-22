@@ -9,7 +9,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
- "catppuccin/nvim",
+  {
+    "iamcco/markdown-preview.nvim",
+    lazy = false,
+    -- run = function() vim.fn["mkdp#util#install"]() end,
+  },
+  "catppuccin/nvim",
   {
     "christoomey/vim-tmux-navigator",
   lazy = false,
